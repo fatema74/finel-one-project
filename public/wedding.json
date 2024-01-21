@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Product 1",
       "photo_url": "https://i.ibb.co/x7ZrhNX/banner.jpg",
-      "title": "Beautiful Product 1",
+      "title": "Beautiful Product",
       "price": 49.99,
       "paragraph": "Discover the timeless elegance of Product 1. Crafted with precision, this product seamlessly blends style and functionality. Its exquisite design makes it a perfect addition to any space."
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "name": "Product 2",
       "photo_url": "https://i.ibb.co/CK1mynW/download-1.jpg",
-      "title": "Elegant Product 2",
+      "title": "Elegant Product ",
       "price": 79.99,
       "paragraph": "Experience the sophistication of Product 2. With its sleek lines and modern design, this product is sure to elevate your surroundings. Make a statement with elegance and class."
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "name": "Product 3",
       "photo_url": "https://i.ibb.co/k5MJhF4/download-2.jpg",
-      "title": "Stylish Product 3",
+      "title": "Stylish Product ",
       "price": 99.99,
       "paragraph": "Introducing Product 3 – a fusion of style and functionality. Its stylish appeal and practical features make it a must-have. Redefine your space with this contemporary masterpiece."
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "name": "Product 4",
       "photo_url": "https://i.ibb.co/tsmnYKd/download.jpg",
-      "title": "Chic Product 4",
+      "title": "Chic Product ",
       "price": 59.99,
       "paragraph": "Add a touch of chic to your surroundings with Product 4. Its unique design and affordable price make it a perfect choice for those who appreciate style without compromise."
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "name": "Product 5",
       "photo_url": "https://i.ibb.co/vQZHYJs/focus-1-jpg-Copy.jpg",
-      "title": "Modern Product 5",
+      "title": "Modern Product ",
       "price": 89.99,
       "paragraph": "Step into the future with Product 5. Its modern aesthetics and cutting-edge features set it apart. Embrace innovation and redefine your space with this forward-thinking product."
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "name": "Product 6",
       "photo_url": "https://i.ibb.co/hVGN4XP/images.jpg",
-      "title": "Sleek Product 6",
+      "title": "Sleek Product ",
       "price": 69.99,
       "paragraph": "Discover the sleek and minimalistic design of Product 6. Its understated elegance and functional simplicity make it a versatile choice for any setting. Upgrade your space effortlessly."
     },
@@ -52,7 +52,7 @@
       "id": 7,
       "name": "Product 7",
       "photo_url": "https://i.ibb.co/cDmTqnd/img-7-jpg-Copy.jpg",
-      "title": "Classic Product 7",
+      "title": "Classic Product ",
       "price": 79.99,
       "paragraph": "Embrace timeless beauty with Product 7. Its classic design and enduring appeal make it a perfect addition to traditional or contemporary settings. Elevate your space with a touch of classic charm."
     },
@@ -60,7 +60,7 @@
       "id": 8,
       "name": "Product 8",
       "photo_url": "https://i.ibb.co/f2syQrD/img-8-jpg-Copy.jpg",
-      "title": "Glamorous Product 8",
+      "title": "Glamorous Product ",
       "price": 109.99,
       "paragraph": "Indulge in luxury with Product 8. Its glamorous design and opulent features make it a statement piece. Transform your space into a haven of sophistication with this exquisite product."
     },
@@ -68,7 +68,7 @@
       "id": 9,
       "name": "Product 9",
       "photo_url": "https://i.ibb.co/Vqsd5HM/title.webp",
-      "title": "Trendy Product 9",
+      "title": "Trendy Product ",
       "price": 49.99,
       "paragraph": "Stay on-trend with Product 9. Its trendy design and affordable price make it a favorite among those who value both style and budget. Upgrade your space with the latest in home decor."
     },
@@ -76,7 +76,7 @@
       "id": 10,
       "name": "Product 10",
       "photo_url": "https://i.ibb.co/0MbrcPh/user.jpg",
-      "title": "Luxurious Product 10",
+      "title": "Luxurious Product ",
       "price": 129.99,
       "paragraph": "Experience true luxury with Product 10. Its luxurious design and premium features make it a symbol of opulence. Transform your surroundings into a palace of refinement with this exquisite product."
     },
@@ -84,7 +84,7 @@
       "id": 11,
       "name": "Product 11",
       "photo_url": "https://i.ibb.co/yY8C6qD/vert-13-jpg.jpg",
-      "title": "Rustic Product 11",
+      "title": "Rustic Product ",
       "price": 59.99,
       "paragraph": "Bring warmth to your space with Product 11. Its rustic charm and natural appeal make it a perfect choice for those who appreciate the beauty of simplicity. Create a cozy and inviting atmosphere with this rustic gem."
     },
@@ -92,7 +92,7 @@
       "id": 12,
       "name": "Product 12",
       "photo_url": "https://i.ibb.co/hHsjGn5/vert-14.jpg",
-      "title": "Charming Product 12",
+      "title": "Charming Product ",
       "price": 69.99,
       "paragraph": "Add a touch of charm with Product 12. Its charming design and affordable price make it a delightful addition to any setting. Elevate your space with this whimsical and enchanting product."
     }
