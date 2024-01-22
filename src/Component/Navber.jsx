@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 const Navber = () => {
@@ -47,18 +47,20 @@ const Navber = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-              {navLink}              
+              {navLink}
             </ul>
           </div>
-          <a className="font-bold text-5xl">Wedd<span className="text-red-500">i</span>ng</a>
+          <a className="font-bold text-5xl">
+            Wedd<span className="text-red-500">i</span>ng
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            {navLink}
-          </ul>
+          <ul className="menu menu-horizontal px-1">{navLink}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Login</a>
+          <Link to='/login'>
+            <button className="btn">Login</button>
+          </Link>
         </div>
       </div>
     </div>

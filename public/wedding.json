@@ -2,109 +2,102 @@
   "items": [
     {
       "id": 1,
-      "name": "Product 1",
+      "name": "Elegance Collection",
+      "title": "Timeless Beauty Dining Table",
       "photo_url": "https://i.ibb.co/x7ZrhNX/banner.jpg",
-      "title": "Beautiful Product",
-      "price": 49.99,
-      "paragraph": "Discover the timeless elegance of Product 1. Crafted with precision, this product seamlessly blends style and functionality. Its exquisite design makes it a perfect addition to any space."
+      "price": 499.99,
+      "paragraph": "Introducing the Elegance Collection, where every piece is a work of art. Our Timeless Beauty Dining Table is crafted with precision, blending classic aesthetics with modern functionality. Elevate your dining experience with this exquisite centerpiece that stands the test of time. The meticulous attention to detail in the design ensures not only a visually stunning piece but also one that is durable and functional. Whether hosting a formal dinner or enjoying a casual meal, this dining table is a statement of refined taste and enduring style."
     },
     {
       "id": 2,
-      "name": "Product 2",
+      "name": "Modern Luxe Living",
+      "title": "Sculptural Statement Sofa",
       "photo_url": "https://i.ibb.co/CK1mynW/download-1.jpg",
-      "title": "Elegant Product ",
-      "price": 79.99,
-      "paragraph": "Experience the sophistication of Product 2. With its sleek lines and modern design, this product is sure to elevate your surroundings. Make a statement with elegance and class."
+      "price": 799.99,
+      "paragraph": "Experience luxury with our Modern Luxe Living collection. The Sculptural Statement Sofa is a masterpiece of design, with sleek lines and contemporary flair. Make a bold statement in your living space with this sophisticated and comfortable seating option. The sofa's sculptural form not only adds visual interest but also provides ergonomic support for a truly relaxing experience. Upholstered in high-quality fabric, this sofa is as pleasing to the touch as it is to the eye. It's a fusion of art and comfort, transforming your living room into a haven of modern elegance."
     },
     {
       "id": 3,
-      "name": "Product 3",
-      "photo_url": "https://i.ibb.co/k5MJhF4/download-2.jpg",
-      "title": "Stylish Product ",
-      "price": 99.99,
-      "paragraph": "Introducing Product 3 – a fusion of style and functionality. Its stylish appeal and practical features make it a must-have. Redefine your space with this contemporary masterpiece."
+      "name": "Urban Chic Essentials",
+      "title": "Stylish Minimalist Bookshelf",
+      "photo_url": "https://i.ibb.co/pbRYmbx/alvin-mahmudov-9-Xfc-Bxf-uo-unsplash.jpg",
+      "price": 999.99,
+      "paragraph": "Transform your home with the Urban Chic Essentials collection. Our Stylish Minimalist Bookshelf is a perfect blend of form and function. Its sleek design and ample storage make it a must-have for those who appreciate simplicity with a touch of urban sophistication. Crafted from high-quality materials, this bookshelf not only serves as a storage solution but also adds a touch of modern art to your space. Whether showcasing your favorite books or displaying decorative items, this bookshelf is a versatile addition to any room in your home."
     },
     {
       "id": 4,
-      "name": "Product 4",
+      "name": "Glamour Fusion",
+      "title": "Chic Velvet Accent Chair",
       "photo_url": "https://i.ibb.co/tsmnYKd/download.jpg",
-      "title": "Chic Product ",
-      "price": 59.99,
-      "paragraph": "Add a touch of chic to your surroundings with Product 4. Its unique design and affordable price make it a perfect choice for those who appreciate style without compromise."
+      "price": 599.99,
+      "paragraph": "Indulge in the Glamour Fusion collection, where opulence meets modern design. The Chic Velvet Accent Chair exudes sophistication with its plush upholstery and elegant curves. Add a touch of glamour to your space with this eye-catching accent piece. The chair's velvet fabric not only provides a luxurious feel but also adds a rich texture to your decor. Whether placed in a cozy corner or as part of a larger seating arrangement, this accent chair is a statement piece that invites relaxation and elevates the overall aesthetic of your living space."
     },
     {
       "id": 5,
-      "name": "Product 5",
+      "name": "Contemporary Comfort",
+      "title": "Modern Leather Recliner",
       "photo_url": "https://i.ibb.co/vQZHYJs/focus-1-jpg-Copy.jpg",
-      "title": "Modern Product ",
-      "price": 89.99,
-      "paragraph": "Step into the future with Product 5. Its modern aesthetics and cutting-edge features set it apart. Embrace innovation and redefine your space with this forward-thinking product."
+      "price": 899.99,
+      "paragraph": "Experience relaxation with our Contemporary Comfort collection. The Modern Leather Recliner combines style and comfort seamlessly. With its modern design and ergonomic features, this recliner is the perfect addition to your contemporary living room."
     },
     {
       "id": 6,
-      "name": "Product 6",
-      "photo_url": "https://i.ibb.co/hVGN4XP/images.jpg",
-      "title": "Sleek Product ",
-      "price": 69.99,
-      "paragraph": "Discover the sleek and minimalistic design of Product 6. Its understated elegance and functional simplicity make it a versatile choice for any setting. Upgrade your space effortlessly."
+      "name": "Sleek Sanctuary",
+      "title": "Sleek Office Desk",
+      "photo_url": "https://i.ibb.co/tBdsZPK/alvaro-cvg-m-W8-IZd-X7n8-E-unsplash.jpg",
+      "price": 699.99,
+      "paragraph": "Create a Sleek Sanctuary with our collection of modern office furniture. The Sleek Office Desk is designed for productivity and style. Its minimalist aesthetic and functional design make it an ideal workspace for the modern professional. Crafted from durable materials, this desk offers a spacious work surface and thoughtful storage solutions. Whether working from home or managing tasks, the Sleek Office Desk provides a clutter-free and inspiring environment. Elevate your office space with this contemporary desk that seamlessly blends form and function."
     },
     {
       "id": 7,
-      "name": "Product 7",
+      "name": "Classic Charm",
+      "title": "Timeless Wood Console Table",
       "photo_url": "https://i.ibb.co/cDmTqnd/img-7-jpg-Copy.jpg",
-      "title": "Classic Product ",
-      "price": 79.99,
-      "paragraph": "Embrace timeless beauty with Product 7. Its classic design and enduring appeal make it a perfect addition to traditional or contemporary settings. Elevate your space with a touch of classic charm."
+      "price": 799.99,
+      "paragraph": "Embrace Classic Charm with our curated collection. The Timeless Wood Console Table is a nod to traditional craftsmanship with a touch of modern flair. Enhance your entryway or living space with this elegant and versatile piece. Crafted from solid wood, the console table showcases intricate detailing and a timeless design. Whether used to display decorative items or as a functional entryway piece, this console table adds a touch of sophistication to your home. Its enduring appeal and sturdy construction make it a lasting investment in classic home decor."
     },
     {
       "id": 8,
-      "name": "Product 8",
+      "name": "Luxury Living Essentials",
+      "title": "Glamorous Crystal Chandelier",
       "photo_url": "https://i.ibb.co/f2syQrD/img-8-jpg-Copy.jpg",
-      "title": "Glamorous Product ",
-      "price": 109.99,
-      "paragraph": "Indulge in luxury with Product 8. Its glamorous design and opulent features make it a statement piece. Transform your space into a haven of sophistication with this exquisite product."
+      "price": 1099.99,
+      "paragraph": "Illuminate your home with Luxury Living Essentials. The Glamorous Crystal Chandelier is a statement of luxury and sophistication. Transform any room into a dazzling space with the radiant glow of this exquisite crystal chandelier. The chandelier features intricate crystal patterns and a timeless design that adds a touch of opulence to your interior. Whether installed in a grand foyer or above a dining table, it becomes a focal point that captivates and enhances the ambiance. Elevate your living spaces with the enchanting allure of this glamorous crystal chandelier."
     },
     {
       "id": 9,
-      "name": "Product 9",
+      "name": "Trendsetter's Haven",
+      "title": "Trendy Velvet Throw Pillows",
       "photo_url": "https://i.ibb.co/Vqsd5HM/title.webp",
-      "title": "Trendy Product ",
       "price": 49.99,
-      "paragraph": "Stay on-trend with Product 9. Its trendy design and affordable price make it a favorite among those who value both style and budget. Upgrade your space with the latest in home decor."
+      "paragraph": "Stay ahead of trends with the Trendsetter's Haven collection. Our Trendy Velvet Throw Pillows add a pop of color and texture to your living space. Mix and match these stylish pillows to create a personalized and on-trend home decor. The velvet fabric and vibrant colors of these throw pillows make them a perfect accessory for your sofa, bed, or lounge area. Whether used as a decorative accent or for additional comfort, these trendy throw pillows bring a sense of style and individuality to your home. Stay on the cutting edge of design with these fashionable and versatile accessories."
     },
     {
       "id": 10,
-      "name": "Product 10",
+      "name": "Luxury Living Royale",
+      "title": "Opulent King Size Bed",
       "photo_url": "https://i.ibb.co/0MbrcPh/user.jpg",
-      "title": "Luxurious Product ",
-      "price": 129.99,
-      "paragraph": "Experience true luxury with Product 10. Its luxurious design and premium features make it a symbol of opulence. Transform your surroundings into a palace of refinement with this exquisite product."
+      "price": 1299.99,
+      "paragraph": "Experience royal comfort with Luxury Living Royale. The Opulent King Size Bed is a masterpiece of craftsmanship and luxury. Elevate your bedroom to a regal sanctuary with this opulent and inviting bed. The king-size bed features a grand design with sumptuous upholstery and intricate detailing. Whether used as the centerpiece of your master bedroom or a luxurious guest suite, this opulent bed creates an atmosphere of indulgence and relaxation. Embrace a lifestyle of luxury and refinement with the enduring beauty and comfort of the Opulent King Size Bed."
     },
     {
       "id": 11,
-      "name": "Product 11",
+      "name": "Rustic Retreat",
+      "title": "Cozy Farmhouse Dining Set",
       "photo_url": "https://i.ibb.co/yY8C6qD/vert-13-jpg.jpg",
-      "title": "Rustic Product ",
-      "price": 59.99,
-      "paragraph": "Bring warmth to your space with Product 11. Its rustic charm and natural appeal make it a perfect choice for those who appreciate the beauty of simplicity. Create a cozy and inviting atmosphere with this rustic gem."
+      "price": 599.99,
+      "paragraph": "Escape to a Rustic Retreat with our farmhouse-inspired collection. The Cozy Farmhouse Dining Set brings warmth and charm to your dining space. Gather with family and friends around this inviting table for a rustic dining experience. The farmhouse dining set features a sturdy table and coordinating chairs with rustic detailing. Crafted from solid wood, it provides durability and a timeless aesthetic. Whether hosting a family dinner or entertaining guests, this dining set creates a cozy and welcoming atmosphere. Experience the simplicity and beauty of farmhouse living with this charming and functional dining set."
     },
     {
       "id": 12,
-      "name": "Product 12",
+      "name": "Enchanting Accents",
+      "title": "Charming Floral Wall Art",
       "photo_url": "https://i.ibb.co/hHsjGn5/vert-14.jpg",
-      "title": "Charming Product ",
       "price": 69.99,
-      "paragraph": "Add a touch of charm with Product 12. Its charming design and affordable price make it a delightful addition to any setting. Elevate your space with this whimsical and enchanting product."
+      "paragraph": "Add a touch of enchantment to your walls with our collection of Enchanting Accents. The Charming Floral Wall Art brings nature's beauty indoors. Infuse your space with charm and sophistication with this captivating floral artwork. The wall art features intricately designed flowers and a harmonious color palette that enhances the ambiance of any room. Whether placed in the living room, bedroom, or entryway, this charming floral artwork becomes a focal point that sparks joy and creativity. Elevate your home decor with the timeless appeal and artistic allure of the Charming Floral Wall Art."
     }
   ]
 }
-
-
-
-
-
-
-
 
 
 

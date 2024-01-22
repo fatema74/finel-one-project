@@ -1,6 +1,9 @@
+import { createContext } from "react";
 
-
-const AuthProvider = () => {
+const AuthProvider = createContext(null);
+const AuthProvider = ({ children }) => {
+  
+  const 
   return (
     <div>
       
