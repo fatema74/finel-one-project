@@ -22,6 +22,7 @@ const Card = ({ data }) => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

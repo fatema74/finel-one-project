@@ -1,7 +1,17 @@
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../AuthProvider/AuthProvider";
 
 
 const Navber = () => {
+  const {user, logOut}  = useContext(AuthContext);
+
+
+  const hendleLogOut = () => {
+    logOut()
+      .then()
+    .catch()
+  }
 
   const navLink = (
     <>
@@ -58,9 +68,18 @@ const Navber = () => {
           <ul className="menu menu-horizontal px-1">{navLink}</ul>
         </div>
         <div className="navbar-end">
-          <Link to='/login'>
-            <button className="btn">Login</button>
-          </Link>
+          {user ? (
+            <div className="flex gap-3">
+              <img className="w-10 h-10 rounded-full" src={user.photoURL} alt="" />
+              <button onClick={hendleLogOut} className="btn">
+                Sign Out
+              </button>
+            </div>
+          ) : (
+            <Link to="/login">
+              <button className="btn">Login</button>
+            </Link>
+          )}
         </div>
       </div>
     </div>

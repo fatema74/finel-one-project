@@ -7,6 +7,7 @@ import Contact from "../Pages/Contact"
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import CardDitails from "../Pages/Card/CardDitails"
+import PriveteRoute from "./PriveteRoute";
 
 
 const PublickRoute = createBrowserRouter([
@@ -21,12 +22,17 @@ const PublickRoute = createBrowserRouter([
       },
       {
         path: '/items/:id',
-        element: <CardDitails></CardDitails>,
-        loader: ()=>fetch('/wedding.json')
+        element: (
+          <PriveteRoute>
+            <CardDitails></CardDitails>
+          </PriveteRoute>
+        ),
+        loader: () => fetch('/wedding.json'),
       },
       {
         path: '/about',
         element: <About></About>,
+        loader: ()=>fetch('/about.json')
       },
       {
         path: '/gallery',
