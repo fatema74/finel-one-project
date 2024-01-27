@@ -2,6 +2,7 @@ import { useLoaderData } from "react-router-dom";
 import AboutPageBanner from "../Component/AboutPageBanner";
 import Title from "../Pages/Title"
 import AboutCard from "./Card/AboutCard";
+import AboutDoun from "./Card/AboutDoun";
 
 const About = () => {
   
@@ -40,10 +41,13 @@ const About = () => {
         </div>
       </div>
 
-      <div>
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 grid-cols-1 gap-4 my-16">
         {
           data.map(nData =><AboutCard key={nData.id} nData={nData}></AboutCard>)
         }
+      </div>
+      <div>
+        <AboutDoun></AboutDoun>
       </div>
     </div>
   );

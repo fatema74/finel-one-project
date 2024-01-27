@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const AboutPageBanner = () => {
@@ -7,7 +8,7 @@ const AboutPageBanner = () => {
         className="hero min-h-screen mb-16"
         style={{
           backgroundImage:
-            'url(https://i.ibb.co/xgDXT7y/istockphoto-1129713291-612x612.jpg)',
+            'url(https://i.ibb.co/2vCG6NS/1000-F-175506473-h-Fi-OUm5-OGHlk1n-QCRQIOcm-LDZmx-CWs-E4.jpg)',
           borderRadius: '12px',
         }}
       >
@@ -20,7 +21,9 @@ const AboutPageBanner = () => {
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <Link to="/gallery">
+              <button className="btn bg-red-400">My Gallary</button>
+            </Link>
           </div>
         </div>
       </div>

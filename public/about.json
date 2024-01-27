@@ -1,38 +1,37 @@
 [
     {
       "id": 1,
-      "name": "Emily and Michael's Wedding",
-      "title": "A Journey of Forever",
-      "paragraph": "Celebrate the union of Emily and Michael as they declare their love and commitment. Join us for a day filled with joy, laughter, and unforgettable moments.",
-      "photo": "https://example.com/emily-michael-photo.jpg"
+      "name": "April Harris",
+      "title": "OWNER",
+      "paragraph": "Emily, Michael: Love sealed.",
+      "photo": "https://i.ibb.co/qn5yF2p/team-4-jpg.jpg"
     },
     {
       "id": 2,
-      "name": "Sophie and David's Love Story",
-      "title": "Two Hearts, One Destiny",
-      "paragraph": "Witness the magical moment when Sophie and David exchange vows and embark on a shared journey of love and companionship. Your presence will make this day even more special.",
-      "photo": "https://example.com/sophie-david-photo.jpg"
+      "name": "Abbie Scott",
+      "title": "SPECIALIST",
+      "paragraph": "Sophie, David: Destiny shared.",
+      "photo": "https://i.ibb.co/rwDdtS0/team-3-jpg.jpg"
     },
     {
       "id": 3,
-      "name": "Olivia and Benjamin's Wedding Celebration",
-      "title": "Love in Full Bloom",
-      "paragraph": "Join us in celebrating the love between Olivia and Benjamin as they say 'I do.' Your presence will add warmth to this beautiful day filled with love, laughter, and happiness.",
-      "photo": "https://example.com/olivia-benjamin-photo.jpg"
+      "name": "Kalyn Evans",
+      "title": "CONSULTANT",
+      "paragraph": "Olivia: Joyful celebration.",
+      "photo": "https://i.ibb.co/CmRPqmF/team-2-jpg.jpg"
     },
     {
       "id": 4,
-      "name": "Lucas and Ava's Eternal Promise",
-      "title": "Forever Begins Today",
-      "paragraph": "Lucas and Ava invite you to witness the moment they promise to spend a lifetime together. Share in the joy of their wedding day and be part of the beginning of their everlasting love story.",
-      "photo": "https://example.com/lucas-ava-photo.jpg"
+      "name": "Maud Howard",
+      "title": "ORGANIZER",
+      "paragraph": "Lucas, Ava: Eternal promise.",
+      "photo": "https://i.ibb.co/f8xNrys/team-1-jpg.jpg"
     }
   ]
 
 
 
 
-  https://i.ibb.co/qn5yF2p/team-4-jpg.jpg
-https://i.ibb.co/rwDdtS0/team-3-jpg.jpg
-https://i.ibb.co/CmRPqmF/team-2-jpg.jpg
-https://i.ibb.co/f8xNrys/team-1-jpg.jpg
+  
+
+

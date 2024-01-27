@@ -37,6 +37,7 @@ const PublickRoute = createBrowserRouter([
       {
         path: '/gallery',
         element: <Gallery></Gallery>,
+        loader: () => fetch('/gallery.json')
       },
       {
         path: '/contact',
