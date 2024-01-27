@@ -30,10 +30,11 @@ const Home = () => {
         {items.slice(0, limite).map(mNews => (
           <Card key={mNews.id} data={mNews}></Card>
         ))}
-
+      </div>
+      <div className="text-center mb-8">
         {limite < items.length && (
-          <div className="text-center my-10">
-            <button onClick={handleClick} className="btn">
+          <div className="w-full mx-auto">
+            <button onClick={handleClick} className="btn bg-red-400">
               Show More
             </button>
           </div>

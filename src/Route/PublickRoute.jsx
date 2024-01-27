@@ -31,13 +31,21 @@ const PublickRoute = createBrowserRouter([
       },
       {
         path: '/about',
-        element: <About></About>,
-        loader: ()=>fetch('/about.json')
+        element: (
+          <PriveteRoute>
+            <About></About>
+          </PriveteRoute>
+        ),
+        loader: () => fetch('/about.json'),
       },
       {
         path: '/gallery',
-        element: <Gallery></Gallery>,
-        loader: () => fetch('/gallery.json')
+        element: (
+          <PriveteRoute>
+            <Gallery></Gallery>
+          </PriveteRoute>
+        ),
+        loader: () => fetch('/gallery.json'),
       },
       {
         path: '/contact',

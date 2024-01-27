@@ -27,6 +27,7 @@ const AuthProvider = ({ children }) => {
 
 
   const handleUpdatePhoto = (name, photo) => {
+    setLoder(true)
     return updateProfile(auth.currentUser, {
       displayName: name, photoURL:photo
     })
@@ -36,8 +37,9 @@ const AuthProvider = ({ children }) => {
   useEffect(() => {
     const unSubmit = onAuthStateChanged(auth, currentUser => {
       console.log('User in the auth state chigne', currentUser);
-      setUser(currentUser)
       setLoder(false);
+      setUser(currentUser)
+      
     })
     return () => {
       unSubmit()     

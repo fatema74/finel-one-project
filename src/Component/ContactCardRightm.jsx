@@ -11,10 +11,11 @@ const ContactCardRightm = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <div>
+      <div className="text-slate-400 mt-10 mb-4 text-lg">
         <span>AVAILABLE AT 10AM – 8PM</span>
       </div>
-      <span className="text-6xl ">+ 202 555 0116</span>
+      <hr />
+      <span className="text-6xl font-bold text-slate-400 pt-6">+ 202 555 0116</span>
     </div>
   );
 };

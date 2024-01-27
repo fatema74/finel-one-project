@@ -17,7 +17,7 @@ const ContactCard = () => {
   }
 
   return (
-    <div className="">
+    <div className="text-slate-400">
       <div>
         <h2 className="text-4xl font-bold pb-4">Drop us a line</h2>
         <p>

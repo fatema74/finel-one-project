@@ -4,12 +4,12 @@ import { Navigate, useLocation } from "react-router-dom";
 
 
 const PriveteRoute = ({ children }) => {
-  const { user, setLoder } = useContext(AuthContext);
+  const { user, loder } = useContext(AuthContext);
 
   const location = useLocation()
 
 
-  if (setLoder) {
+  if (loder) {
     return <span className="loading loading-spinner loading-lg"></span>;
   }
 
