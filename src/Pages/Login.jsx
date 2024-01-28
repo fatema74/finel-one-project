@@ -5,7 +5,13 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 
 
 const Login = () => {
-  const { loginUser } = useContext(AuthContext);
+  const { loginUser, googleLogin } = useContext(AuthContext);
+
+  const handleSocialLogin = (media) => {
+    media()
+    .then(res => console.log(res))
+    .catch(error => console.log(error))
+  }
 
   const location = useLocation();
   console.log(location);
@@ -71,6 +77,11 @@ const Login = () => {
           <div className="form-control mt-6">
             <button className="btn bg-red-400">Login</button>
           </div>
+
+          <div>
+            <button onClick={()=>handleSocialLogin(googleLogin)} className="btn">Google</button>
+          </div>
+
           <p>
             Do not have an account <Link to="/register">
               <button className="text-red-400">Register</button>
