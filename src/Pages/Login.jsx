@@ -1,11 +1,14 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 
 
 const Login = () => {
   const { loginUser, googleLogin } = useContext(AuthContext);
+
+  const [showPassword, setShowPassword] = useState(false);
 
   const handleSocialLogin = (media) => {
     media()
@@ -61,13 +64,21 @@ const Login = () => {
             <label className="label">
               <span className="label-text">Password</span>
             </label>
-            <input
-              type="password"
-              placeholder="password"
-              name="password"
-              className="input input-bordered"
-              required
-            />
+            <div className="relative">
+              <input
+                type={showPassword ? 'text' : 'password'}
+                placeholder="password"
+                name="password"
+                className="input input-bordered w-full"
+                required
+              />
+              <span
+                className="absolute top-4 right-2"
+                onClick={() => setShowPassword(!showPassword)}
+              >
+                {showPassword ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>}
+              </span>
+            </div>
             <label className="label">
               <a href="#" className="label-text-alt link link-hover">
                 Forgot password?
@@ -78,12 +89,22 @@ const Login = () => {
             <button className="btn bg-red-400">Login</button>
           </div>
 
+          <div className="">
+            <span className="divider font-bold my-6">Continue With</span>
+          </div>
+
           <div>
-            <button onClick={()=>handleSocialLogin(googleLogin)} className="btn">Google</button>
+            <button
+              onClick={() => handleSocialLogin(googleLogin)}
+              className="btn"
+            >
+              Google
+            </button>
           </div>
 
           <p>
-            Do not have an account <Link to="/register">
+            Do not have an account{' '}
+            <Link to="/register">
               <button className="text-red-400">Register</button>
             </Link>
           </p>
